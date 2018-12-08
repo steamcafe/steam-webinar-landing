@@ -147,14 +147,6 @@ strong { font-weight: 500; }
   background: #14A76C;
 }
 
-.facebook-group-btn {
-  background: #337ab7 !important;
-}
-
-.facebook-group-btn:hover {
-  background: #4594da !important;
-}
-
 .btn:hover,
 .btn:active,
 .btn:focus,
@@ -163,7 +155,7 @@ strong { font-weight: 500; }
   outline: none;
   color: #fff;
   border-color: transparent;
-  background: rgb(55, 203, 144);
+  background: #47a0fe;
 }
 
 .cta-btn { margin-top: 3em; }
@@ -207,7 +199,7 @@ strong { font-weight: 500; }
 
 .countdown p {
   font-weight: 500;
-  color: #5d1513;
+  color: #b71c1c;
   display: block;
   padding-right: 0;
   margin: 0;
@@ -253,7 +245,7 @@ strong { font-weight: 500; }
   outline: none;
   color: #fff;
   border-color: transparent;
-  background: rgb(55, 203, 144);
+  background: #47a0fe;
 }
 
 .navbar-nav > li,
@@ -600,7 +592,7 @@ strong { font-weight: 500; }
 
 
 
-.schedule { background: #8a6d3b; }
+.schedule { background: #3396FE; }
 
 .schedule h3 {
   margin: 0;
@@ -633,7 +625,7 @@ strong { font-weight: 500; }
 .schedule .btn:active:hover,
 .schedule .btn:active:focus {
   outline: none;
-  color: #8a6d3b;
+  color: #3396FE;
   border-color: #fff;
   background: #fff;
 }
@@ -677,13 +669,13 @@ strong { font-weight: 500; }
   width: 43px;
   height: 43px;
   line-height: 43px;
-  background: #8a6d3b;
+  background: #3396FE;
   color: #fff;
   border-radius: 50%;
 }
 
 .social li a:hover {
-  background: #aa8a52;
+  background: #47a0fe;
   color: #fff;
 }
 
