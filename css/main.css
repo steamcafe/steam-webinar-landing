@@ -316,7 +316,10 @@ strong { font-weight: 500; }
 .navbar.affix a.btn-nav { display: block; }
 
 
-.navbar-brand { padding: 0px; }
+.navbar-brand { 
+  padding: 0px; 
+  margin-left: 15px;
+}
 
 .affix .button-container span { background: #444a59; }
 
