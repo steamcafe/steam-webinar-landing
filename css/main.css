@@ -228,7 +228,96 @@ strong { font-weight: 500; }
 /* ==========================================================================
    4.navigation
    ========================================================================== */
-   
+.logo {
+  width: 60px;
+}
+
+.logo-nav {
+  width: 60px;
+}
+
+.nav-item {
+  /*padding: 12px 18px 0px 0px;*/
+}
+
+.navbar-default {
+    background:transparent;
+    border: none;
+}
+  
+.nav-item a {
+  color: #fff !important;
+}
+
+.nav-item a:hover {
+  color: rgb(55, 203, 144) !important;
+}
+
+.navbar-nav{
+  margin-left: 18px;
+}
+
+
+.navbar-brand { 
+  padding: 0px; 
+  margin-left: 15px;
+}
+
+.logo {
+  margin-left: 50px;
+}
+
+.navbar-default .navbar-nav>li> a.btn-nav {
+  color: #fff;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-nav>li> a.btn-nav:hover,
+.navbar-default .navbar-nav>li> a.btn-nav:active,
+.navbar-default .navbar-nav>li> a.btn-nav:focus,
+.navbar-default .navbar-nav>li> a.btn-nav:active:hover,
+.navbar-default .navbar-nav>li> a.btn-nav:active:focus {
+  outline: none;
+  color: #fff;
+  border-color: transparent;
+  background: rgb(55, 203, 144);
+}
+
+.icon-bar {
+  background-color: #fff !important;
+  width: 24px !important;
+
+}
+
+.navbar-toggle {
+  border: none;
+}
+
+
+/* responsive styles */
+@media (max-width: 768px) {
+  .nav>li>.nav-link {
+    padding: 5px 0px;
+  }
+
+  .btn-nav {
+    /*background: #ff0000;*/
+  }
+
+  .navbar-nav {
+    margin: 8px
+  }
+
+  .logo {
+    margin-left: 8px
+  }
+  
+  .navbar-default .navbar-collapse {
+    border: none;
+  }
+}
+
+   /*
 .navbar-default {
   background-color: transparent;
   border: none;
@@ -464,7 +553,7 @@ strong { font-weight: 500; }
  left: 0;
 }
 }
-
+*/
 /* ==========================================================================
    5.Agenda
    ========================================================================== */
