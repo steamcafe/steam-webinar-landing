@@ -61,7 +61,6 @@ h6 {
 }
 
 a {
-  color: #3396FE;
   transition: all 0.3s ease-in-out;
 }
 
@@ -1385,31 +1384,27 @@ body { padding: 0 !important; }
   position: relative;
 }
 
+.footer-copyright {
+  padding-top: 45px;
+}
+
 .footer-links { margin-bottom: 24px; }
 
 .footer-links a {
-  color: #777879;
-  padding-right: 16px;
+  color: #836c49 !important;
+}
+
+.footer-links a:hover {
+  color: #ae946d !important;
+}
+
+.site-footer h5 {
+  color: #5c514c;
+  font-weight: 800;
 }
 
 .footer-links a:last-child { padding-right: 0; }
 
-.footer-links a:hover,
-.footer-links a:focus,
-.footer-contact a:hover,
-.footer-contact a:focus { color: #fff; }
-
-.site-footer small { font-size: 16px; }
-
-.site-footer small,
-.footer-contact a,
-.footer-contact p { color: #777879; }
-
-.footer-contact { margin: 24px 0 0; }
-
-.footer-contact p i { padding-right: .5em; }
-
-.footer-contact .social a { background: #777879; }
 
 /* ==========================================================================
   19. site policy modal
