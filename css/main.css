@@ -152,7 +152,27 @@ strong { font-weight: 500; }
   overflow: hidden;
   color: #fff;
   border-color: transparent;
-  background: #14A76C;
+  background: #543925;
+}
+
+.section-header h4 {
+  margin: auto 15% !important;
+}
+
+.learn-more-btn {
+  width: auto !important;
+  border-radius: 50px !important;
+  padding: 1em 3em !important;
+  margin-bottom: 20px;
+  background: #f8f8f9 !important;
+  color: #543925 !important;
+  border: 1px solid #543925;
+}
+
+.learn-more-btn:hover {
+  background: #543925 !important;
+  color: #fff !important;
+  border: 1px solid #fff;
 }
 
 .facebook-group-btn {
@@ -171,7 +191,7 @@ strong { font-weight: 500; }
   outline: none;
   color: #fff;
   border-color: transparent;
-  background: rgb(55, 203, 144);
+  background: #AF9275;
 }
 
 .cta-btn { margin-top: 3em; }
@@ -258,7 +278,7 @@ strong { font-weight: 500; }
 }
 
 .nav-item a:hover {
-  color: rgb(55, 203, 144) !important;
+  color: #AF9275 !important;
 }
 
 .navbar-nav{
@@ -700,7 +720,7 @@ strong { font-weight: 500; }
 
 
 
-.schedule { background: #8a6d3b; }
+.schedule { background: #543925; }
 
 .schedule h3 {
   margin: 0;
@@ -859,6 +879,10 @@ figure,
   border-left: none;
   font-size: 20px;
   margin: 0;
+}
+
+.jssocials-share-link { 
+  border-radius: 100px !important; 
 }
 
 .reviews blockquote p {
@@ -1133,9 +1157,7 @@ select.form-control {
    ========================================================================== */   
    
 .share {
-  border-bottom: 1px solid rgba(119, 120, 121, 0.15);
   margin-bottom: 2.25em;
-  padding-bottom: 2.25em;
   position: relative;
 }
 
@@ -1393,25 +1415,17 @@ body { padding: 0 !important; }
   19. site policy modal
    ========================================================================== */
    
-.site-policy .modal-content { padding: 1.5em; }
-
-.site-policy .modal-header {
-  border-bottom: 1px solid #e5e5e5;
-  padding: 0 0 1.5em 0;
-}
-
-.site-policy .modal-body { padding: 1.5em 0 .75em; }
-
-.site-policy ul { margin-left: 20px; }
-
 .site-policy li {
   margin-bottom: 7px;
-  list-style: disc;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 14px;
 }
 
-.site-policy h3 { font-size: 24px; }
+.site-policy h3 { font-size: 16px; }
+
+.site-policy p  {
+  font-size: 14px;
+}
 
 .site-policy p:last-child { margin-bottom: 0; }
 
@@ -1492,9 +1506,8 @@ body { padding: 0 !important; }
 
 .newsletter-sub { right: 4%; }
 
-.site-policy .modal-content { padding: 1.5em 2.25em; }
-
-.site-policy ul { margin-left: 40px; }
+ol {
+  padding-inline-start: 0px;
 }
 
 /* ==========================================================================

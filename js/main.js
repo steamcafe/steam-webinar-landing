@@ -9,8 +9,14 @@ $(function() {
 
     $('#cta-signup-form').ajaxChimp({
         callback: callbackFunctionCta,
-        url: 'http://csmthemes.us3.list-manage.com/subscribe/post?u=9666c25a337f497687875a388&id=df84217cb4'
+        url: 'http://qilearning.us19.list-manage.com/subscribe/post?u=320f7e67276ec09ff1271fa26&id=27db162489'
             // http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
+
+            /*
+            csmthemes.us3
+            u=9666c25a337f497687875a388
+            id=fa41845374
+            */
     });
 
     function callbackFunctionCta(resp) {
@@ -29,7 +35,7 @@ $(function() {
        Countdown timer 
        ========================================================================== */
 
-
+/*
     $('#clock').countdown('2018/12/11 19:00:00') //Change time here. Time format 'y/m/d  h/m/s' 
         .on('update.countdown', function(event) {
             var format = '%H:%M:%S';
@@ -47,7 +53,7 @@ $(function() {
 
         });
 
-
+*/
 
 
     /* ==========================================================================
@@ -101,6 +107,7 @@ $(function() {
 
     $("#share").jsSocials({
         showCount: false,
+        showLabel: false,
         shares: ["email", "twitter", "facebook", "linkedin"], // add/remove social network
         url: "http://steamcafe.net", // http://url.to.share
         text: "STEAM Café - Webinar" // text to share
@@ -261,10 +268,11 @@ $(function() {
    litebox
    ========================================================================== */
 
+   /*
     $('.agenda .play-btn').magnificPopup({
         type: 'iframe'
     });
-
+*/
 
     /* ==========================================================================
      Textrotator
